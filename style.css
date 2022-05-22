@@ -19,6 +19,7 @@ h2{
 .clock{
     display: flex;
     position:relative;
+    left: 5px;
 }
 .clock div{
     margin: 5px;
@@ -50,4 +51,34 @@ h2{
     height: 30px;
     font-size: 20px;
     background: green;
+}
+.callender{
+    display: flex;
+    position: relative;
+}
+.callender div{
+    margin:5px;
+}
+.callender span{
+    width: 100px;
+    height: 80px;
+    background: slateblue;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+}
+.callender .txt{
+    height: 30px;
+    font-size: 10px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    background: darkblue;
+    opacity: .8;
+}
+.callender #year{
+    font-size: 40px;
 }
